@@ -1,0 +1,28 @@
+{
+  "name": "grunttutotial",
+  "version": "1.0.0",
+  "description": "grunt tutorial--write some demos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/RookieDouby/grunt-tutorial.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "szhang",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-livereload": "^0.1.3"
+  }
+}
