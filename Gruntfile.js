@@ -71,7 +71,7 @@ module.exports = function (grunt) {
                 tasks: ['sass']
             },
             livereload: {
-                files: ['./index.html'],
+                files: ['./index.html','build/css/style.min.css'],
                 options: {
                     livereload: '<%= connect.options.livereload %>'
                 }
